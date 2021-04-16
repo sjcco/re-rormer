@@ -30,6 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
+- Start the server in a new terminal by navigating to the project folder and using `bin/rails server`
 - Visit [this page](http://localhost:3000/) to create a new user
 - To edit an existing user you need the user id and replace it in this link (http://localhost:3000/user/:userid/edit)
 
