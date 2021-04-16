@@ -19,22 +19,6 @@
   <%= submit_tag("Submit") %>
 <% end %> -->
 
-<%= form_with model: @user do |form| %>
-  <div>
-  <%= form.label :username %><br>
-  <%= form.text_field :username, placeholder: 'Your Username' %>
-  </div>
-  <div>
-  <%= form.label :email %><br>
-  <%= form.text_field :email, placeholder: 'example@example.com' %>
-  </div>
-  <div>
-  <%= form.label :password %><br>
-  <%= form.password_field :password %>
-  </div>
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
+<%= render "form", user: @user %>
 
 
