@@ -1,3 +1,4 @@
+<div class='container'>
 <%= form_with model: user do |form| %>
   <div>
   <%= form.label :username %><br>
@@ -20,7 +21,8 @@
     <div><%= message %></div>
   <% end %>
   </div>
-  <div>
-    <%= form.submit 'Edit' %>
+  <div class='submit'>
+    <%= form.submit %>
   </div>
 <% end %>
+</div>
