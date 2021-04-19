@@ -1,24 +1,61 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Re-former
 
-Things you may want to cover:
+> Forms built using the rails form method helpers.
 
-* Ruby version
+![screenshot](./app/assets/images/app_screenshot.png)
 
-* System dependencies
+In this project we build a form to create new or edit existing users.
 
-* Configuration
+## Built With
 
-* Database creation
+- Ruby
+- Ruby on Rails
+- SQLite3
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby
+- Ruby on Rails
+- SQLite3
+- yarn
+- Node.js
 
-* Deployment instructions
+### Setup
 
-* ...
+- Clone the project with `git clone https://github.com/sjcco/re-rormer`
+
+### Usage
+
+- Start the server in a new terminal by navigating to the project folder and using `bin/rails server`
+- Visit [this page](http://localhost:3000/) to create a new user
+- To edit an existing user you need the user id and replace it in this link (http://localhost:3000/user/:userid/edit)
+
+## Authors
+
+👤 **Juan Carlos Campos**
+
+- GitHub: [@sjcco](https://github.com/sjcco)
+- Twitter: [@CarlosCamposO](https://twitter.com/CarlosCamposO)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/sjcco/re-rormer/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse team
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
